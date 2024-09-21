@@ -1,11 +1,78 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Giới thiệu bản thân</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    hello world5
-    hello world6
+
+<!-- Menu điều hướng -->
+<nav>
+    <a href="#about">Giới thiệu bản thân</a> |
+    <a href="#contact">Gửi thông tin và liên hệ</a>
+</nav>
+
+<!-- Phần Giới thiệu bản thân -->
+<div id="about">
+    <h1 style="color:#CAEDFF;">Giới thiệu bản thân</h1>
+
+    <!-- Hình ảnh đại diện -->
+    <h2 style="color:#D8B4F8;">Hình ảnh đại diện</h2>
+    <img src="https://png.pngtree.com/png-clipart/20190516/original/pngtree-cartoon-hand-painted-dolphins-cute-dolphin-little-dolphin-png-image_3821858.jpg" alt="Hình ảnh đại diện" width="300" height="300" style="display:block; margin:auto;">
+
+    <!-- Thông tin cơ bản -->
+    <h2 style="color:#D8B4F8;">Thông tin cơ bản</h2>
+    <h3 style="color:#FFC7EA;">Sở thích</h3>
+    <h4>Món ăn</h4>
+    <p>Phở, Bánh mì, Cơm tấm</p>
+
+    <h4>Giải trí</h4>
+    <p>Trò chơi: Liên Minh Huyền Thoại, Fifa Online</p>
+    <p>Bài hát yêu thích: Shape of You, See You Again</p>
+
+    <!-- Bảng mục tiêu của bản thân -->
+    <h3 style="color:#FFC7EA;">Mục tiêu của bản thân</h3>
+    <table>
+        <tr>
+            <th>Mục tiêu</th>
+            <th>Thời hạn</th>
+            <th>Hoàn thành</th>
+        </tr>
+        <tr>
+            <td>Học HTML và CSS</td>
+            <td>1 tuần</td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td>Tạo trang web cá nhân</td>
+            <td>2 tuần</td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td>Nâng cao kỹ năng lập trình</td>
+            <td>1 tháng</td>
+            <td><input type="checkbox"></td>
+        </tr>
+    </table>
+</div>
+
+<!-- Phần Gửi thông tin và liên hệ -->
+<div id="contact">
+    <h1 style="color:#CAEDFF;">Gửi thông tin và giao lưu cùng tôi</h1>
+    <form>
+        Họ tên: <input type="text" name="fullname"><br>
+        Email: <input type="email" name="email"><br>
+        Nội dung: <textarea name="message"></textarea><br>
+        <input type="submit" value="Gửi">
+    </form>
+</div>
+
+<!-- Footer -->
+<footer>
+    <p>@2024 22521158 VoHuuPhuoc</p>
+</footer>
+
 </body>
 </html>

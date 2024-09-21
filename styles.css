@@ -1,0 +1,42 @@
+/* CSS cho toàn bộ thẻ h1, h2, h3, h4 */
+h1, h2, h3, h4 {
+    font-size: 24px;
+    text-shadow: 1px 1px 1px black;
+}
+
+/* Div giới thiệu bản thân */
+#about {
+    background-color: #F3FDE8;
+    padding: 20px;
+}
+
+/* Div gửi thông tin và liên hệ */
+#contact {
+    background-image: url('https://www.example.com/background.jpg');
+    background-repeat: repeat;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Bảng mục tiêu */
+table, th, td {
+    border: 1px solid black;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+/* Menu điều hướng */
+nav {
+    background-color: #d4f2f4;
+    color: #0b0848;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #d4f2f4;
+    color: #0b0848;
+    text-align: center;
+    padding: 10px;
+}
